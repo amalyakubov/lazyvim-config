@@ -9,9 +9,7 @@ return {
       require("github-theme").setup({
         -- ...
       })
-
-      vim.cmd("colorscheme github_dark")
+      vim.cmd("colorscheme github_dark_default")
     end,
   },
-  { "nvim-treesitter/nvim-treesitter", branch = "master", lazy = false, build = ":TSUpdate" },
 }
